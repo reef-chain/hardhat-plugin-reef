@@ -1,6 +1,6 @@
 {
   "name": "@reef-chain/hardhat-reef",
-  "version": "0.0.1",
+  "version": "1.0.14",
   "private": false,
   "description": "Hardhat Reef chain plugin",
   "repository": "github:reef-chain/hardhat-plugin-reef",
