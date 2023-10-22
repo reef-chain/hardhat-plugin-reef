@@ -139,7 +139,7 @@ const contract = await hre.reef.getContractAt(Flipper, address);
 ## Test, Deploy & Interaction with contract example
 
 In this example we will show how to create a new project, test, deploy and interact with the contract.
-We will use [Hardhat Reef Template](https://github.com/reef-chain/hardhat-reef-template). 
+We will use [Hardhat Reef Template](https://github.com/reef-chain/hardhat-template-reef). 
 The template provides us with a Greeter contract, some scripts, all necessary dependencies, and hardhat configurations for the Reef node.
 
 
@@ -148,14 +148,14 @@ The template provides us with a Greeter contract, some scripts, all necessary de
 
 There are two simple ways to start new project. 
 
-1. Clone [Hardhat Reef Template](https://github.com/reef-chain/hardhat-reef-template).
+1. Clone [Hardhat Reef Template](https://github.com/reef-chain/hardhat-template-reef).
 ```bash
 git clone git@github.com:reef-chain/hardhat-reef-template.git greeter
 cd greeter
 yarn
 ```
 
-2. Use [Hardhat Reef Template](https://github.com/reef-chain/hardhat-reef-template) to configure new project on Github and then clone it.
+2. Use [Hardhat Reef Template](https://github.com/reef-chain/hardhat-template-reef) to configure new project on Github and then clone it.
 ```bash
 git clone git@github.com:/username/greeter.git
 cd greeter
