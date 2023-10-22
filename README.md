@@ -5,7 +5,7 @@ Hardhat reef plugin allows to deploy and interact with contracts through hardhat
 ## Installation
 
 ```
-yarn add @reef-defi/hardhat-reef 
+yarn add @reef-chain/hardhat-reef 
 ```
 
 ## Configuration
@@ -59,7 +59,7 @@ Therefore configuration is only required if the user wants to change the URL of 
 ## Usage
 
 The plugin exposes `hre.reef` object for interaction with the reef compatible chain.
-See [examples repo](https://github.com/reef-defi/hardhat-reef-examples) for examples of usage.
+See [examples repo](https://github.com/reef-chain/hardhat-reef-examples) for examples of usage.
 
 
 ### Signers
@@ -139,7 +139,7 @@ const contract = await hre.reef.getContractAt(Flipper, address);
 ## Test, Deploy & Interaction with contract example
 
 In this example we will show how to create a new project, test, deploy and interact with the contract.
-We will use [Hardhat Reef Template](https://github.com/reef-defi/hardhat-reef-template). 
+We will use [Hardhat Reef Template](https://github.com/reef-chain/hardhat-reef-template). 
 The template provides us with a Greeter contract, some scripts, all necessary dependencies, and hardhat configurations for the Reef node.
 
 
@@ -148,14 +148,14 @@ The template provides us with a Greeter contract, some scripts, all necessary de
 
 There are two simple ways to start new project. 
 
-1. Clone [Hardhat Reef Template](https://github.com/reef-defi/hardhat-reef-template).
+1. Clone [Hardhat Reef Template](https://github.com/reef-chain/hardhat-reef-template).
 ```bash
-git clone git@github.com:reef-defi/hardhat-reef-template.git greeter
+git clone git@github.com:reef-chain/hardhat-reef-template.git greeter
 cd greeter
 yarn
 ```
 
-2. Use [Hardhat Reef Template](https://github.com/reef-defi/hardhat-reef-template) to configure new project on Github and then clone it.
+2. Use [Hardhat Reef Template](https://github.com/reef-chain/hardhat-reef-template) to configure new project on Github and then clone it.
 ```bash
 git clone git@github.com:/username/greeter.git
 cd greeter
