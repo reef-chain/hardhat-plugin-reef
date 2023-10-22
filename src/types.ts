@@ -1,5 +1,5 @@
 import { HardhatEthersHelpers } from "@nomiclabs/hardhat-ethers/types";
-import { Provider } from "@reef-defi/evm-provider";
+import { Provider } from "@reef-chain/evm-provider";
 import type { Contract, ContractFactory, ethers } from "ethers";
 import { HttpNetworkConfig } from "hardhat/types";
 

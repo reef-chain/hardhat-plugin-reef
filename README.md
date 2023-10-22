@@ -22,7 +22,7 @@ module.exports = {
     // Mainnet reef network configuration
     reef_mainnet: {
       url: "wss://rpc.reefscan.com/ws",
-      scanUrl: "https://reefscan.com"
+      scanUrl: "https://reefscan.com",
       seeds: {
         "MyAccount1": "<INSERT ACCOUNT MNEMONIC SEED>",
       }
@@ -30,7 +30,7 @@ module.exports = {
     // Testnet reef network configuration
     reef_testnet: {
       url: "wss://rpc-testnet.reefscan.com/ws",
-      scanUrl: "https://reefscan.com"
+      scanUrl: "https://reefscan.com",
       seeds: {
         "MyAccount1": "<INSERT ACCOUNT MNEMONIC SEED>",
       }
@@ -38,7 +38,7 @@ module.exports = {
     // Localhost reef network configuration
     reef: {
       url: "ws://127.0.0.1:9944",
-      scanUrl: "http://localhost:3000"
+      scanUrl: "http://localhost:3000",
       seeds: {
         "MyAccount1": "<INSERT ACCOUNT MNEMONIC SEED>",
       }

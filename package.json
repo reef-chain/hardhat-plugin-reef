@@ -1,8 +1,9 @@
 {
-  "name": "@reef-defi/hardhat-reef",
-  "version": "0.0.0-dev",
+  "name": "@reef-chain/hardhat-reef",
+  "version": "0.0.1",
+  "private": false,
   "description": "Hardhat Reef chain plugin",
-  "repository": "github:reef-defi/hardhat-reef",
+  "repository": "github:reef-chain/hardhat-plugin-reef",
   "author": "Reef",
   "license": "MIT",
   "main": "dist/src/index.js",
@@ -46,11 +47,12 @@
     "hardhat": "~2.6.7"
   },
   "dependencies": {
-    "@reef-defi/evm-provider": "^1.0.7",
+    "@reef-chain/evm-provider": "^1.0.12",
     "@types/validator": "^13.1.3",
     "axios": "^0.24.0",
     "fs-extra": "^9.1.0",
     "node-fetch": "^2.6.1",
     "portscanner": "^2.2.0"
-  }
+  },
+  "packageManager": "yarn@3.6.4"
 }

@@ -5,7 +5,7 @@ import {
   Provider,
   Signer,
   TestAccountSigningKey,
-} from "@reef-defi/evm-provider";
+} from "@reef-chain/evm-provider";
 import axios from "axios";
 import { Contract, ContractFactory } from "ethers";
 import {
