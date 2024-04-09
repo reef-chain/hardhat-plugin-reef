@@ -64,6 +64,15 @@ export const compress = <T>(values: T[][]): T[] => {
 };
 
 export const availableCompilerVersions = [
+  "v0.8.19+commit.7dd6d404",
+  "v0.8.18+commit.87f61d96",
+  "v0.8.17+commit.8df45f5f",
+  "v0.8.16+commit.07a7930e",
+  "v0.8.15+commit.e14f2714",
+  "v0.8.14+commit.80d49f37",
+  "v0.8.13+commit.abaa5c0e",
+  "v0.8.12+commit.f00d7308",
+  "v0.8.11+commit.d7f03943",
   "v0.8.10+commit.fc410830",
   "v0.8.9+commit.e5eed63a",
   "v0.8.8+commit.dddeac2f",
